@@ -9,6 +9,23 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
+## Sik's test
+
+<ul class="tag_box inline">
+  {% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+</ul>
+
+
+{% for category in site.categories %} 
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
+
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
