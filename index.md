@@ -19,11 +19,15 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
   </ul>
 {% endfor %}
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla bla bla bla bla bla
+boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo
+boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo
+boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo
+boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo boo
+boo boo boo boo boo boo boo boo boo boo
+
+## publish
+
+{% bibliography --query @article @inproceedings %}
 
 ## Update Author Attributes
 
